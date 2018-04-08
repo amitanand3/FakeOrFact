@@ -1,4 +1,5 @@
 /* Custom Stylesheet */
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -9,12 +10,27 @@
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
 }
-#resultContainer{
+
+#resultContainer {
   margin-left: 20%;
 }
-textarea.materialize-textarea{
+
+textarea.materialize-textarea {
   margin: 0 0 -13px 0;
+}
+
+#logo-container img {
+  width: 140px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

@@ -79,6 +79,7 @@ $(document).ready(function () {
       },  
       dataType: 'json',
       success: function (response) {
+        array = [];
         $('.progress').addClass('hide');
         modal.open();
         var value = 0;
