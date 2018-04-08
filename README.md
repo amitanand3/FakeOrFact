@@ -1,2 +1,2 @@
 # FakeOrFact
-Identifying the authenticity of news
+Identifying the reliability of content.

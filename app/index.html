@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Fake or Fact - News Detector</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <script src="./js/loader.js"></script>
+</head>
+
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Fake or Fact</a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br>
+      <br>
+      <h1 class="header center orange-text">Think before you share!</h1>
+      <div class="row">
+        <form class="col s12" id="queryForm">
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="query" class="materialize-textarea"></textarea>
+              <label for="query">Enter content</label>
+              <div class="progress hide" id="loader">
+                <div class="indeterminate"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row center">
+            <button class="btn waves-effect waves-light" type="submit">Verify
+              <i class="material-icons right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <br>
+      <br>
+      
+    </div>
+  </div>
+  
+  <!-- Modal Structure -->
+  <div id="resultModal" class="modal">
+    <a href="#!" style='float:right;' class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+    <div class="modal-content">
+      <div class="row">
+        <div class="col s12 m8">
+          <div class="card">
+            <div class="card-content">
+              <div id='genuineContent'>
+                <p id="resultQueryGenuine"></p>
+                <button id="sourceBtn" class="waves-effect waves-light btn" style='margin-top:10px;margin-bottom:10px;'>VIEW SOURCES</button>
+                <div id='sourceList' class="hide collection">
+                  
+                </div>
+              </div>
+              <!-- <span class="card-title">Your Query</span>
+              <p id="resultQuery"></p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <!-- <div class="card">
+            <div class="card-content"> -->
+              <div id="resultContainer" class='center'>
+                  <div id="resultMeter"></div>
+                  <div id="result"></div>
+              </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of professionals working on this project. Any kind of help to continue development on this project
+            would be greatly appreciated.</p>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by
+        <a class="orange-text text-lighten-3" href="#">Team Saviours</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>

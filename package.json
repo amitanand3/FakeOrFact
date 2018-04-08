@@ -1,0 +1,25 @@
+{
+  "name": "fakeorfact",
+  "version": "0.0.1",
+  "description": "Fake or Fact",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaytmBuildForIndia/FakeOrFact.git"
+  },
+  "author": "Urvashi Suri, Sonali Gupta, Amit Anand, Vikas Kumar Singh",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/PaytmBuildForIndia/FakeOrFact/issues"
+  },
+  "homepage": "https://github.com/PaytmBuildForIndia/FakeOrFact#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "connect-timeout": "^1.9.0"
+  }
+}
