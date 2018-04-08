@@ -28,9 +28,3 @@ textarea.materialize-textarea {
   margin-top: 60px;
   margin-left: 60px;
 }
-
-.page-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
